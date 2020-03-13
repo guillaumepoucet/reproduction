@@ -1,0 +1,314 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    position: relative;
+}
+
+.topnav .icon {
+    display: none;
+  }
+
+body,
+h3 {
+    margin: 0px;
+}
+
+.topnav a,
+h2,
+h3,
+h4 {
+    font-family: 'Arvo', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topnav a {
+    font-weight: bold;
+    color: gray;
+    margin-left: 30px;
+    display: block;
+    float: right;
+}
+
+.more,
+hr {
+    background-color: #D9534F;
+}
+
+footer {
+    background-color: #F74C3C;
+}
+
+#get-involved {
+    background-color: #F5F5F5;
+}
+
+nav {
+    background-color: #222222;
+}
+
+h2,
+h4,
+#get-involved a,
+#who span {
+    color: #F74C3C;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:hover,
+#home,
+.more,
+.get-div>i {
+    color: white;
+}
+
+#home h3 {
+    font-weight: normal;
+}
+
+#home p {
+    padding: 0px 10px 0px 10px;
+}
+
+hr {
+    height: 1px;
+    width: 155px;
+    border: none;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.topnav a,
+h2,
+h4 {
+    text-transform: uppercase;
+}
+
+#home {
+    background-image: url(../images/hero-image.jpg);
+}
+
+#myBtn {
+    position: absolute;
+}
+
+nav section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-size: 63px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.more {
+    display: block;
+    width: fit-content;
+    padding: 10px 17px;
+    font-size: 30px;
+    margin: auto;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.more,
+#home span {
+    font-weight: bold;
+}
+
+.more i {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+#home p {
+    font-size: 18px;
+    margin: auto;
+}
+
+h2 {
+    margin: 17px;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.get-involved {
+    display: flex;
+    margin-top: 30px;
+}
+
+.get-involved > * {
+    flex: 1 1 0;
+}
+
+.get-div>i {
+    background-color: black;
+    font-size: 50px;
+    border-radius: 50%;
+    padding: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+.get-involved h4 {
+    font-size: 26px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.get-involved p {
+    margin: 10px;
+}
+
+.get-involved a {
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    padding: 10px 25px 10px 10px;
+    border-radius: 5px;
+    margin: 9px;
+    display: inline-block;
+    position: relative;
+}
+
+.get-div a i {
+    font-size: 10px;
+    margin-left: 4px;
+    position: absolute;
+    bottom: 14px;
+}
+
+footer section {
+    padding-top: 150px;
+    text-align: left;
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+@media (max-width: 1199px) {
+    .get-involved p {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+} 
+
+@media (max-width: 991px) {
+    section {
+        max-width: 792px;
+    }
+
+    p {
+        line-height: 1.6em;
+    }
+
+    #home p {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    h3 {
+        font-size: 50px;
+    }
+    .get-involved {
+        flex-direction: column;
+    }
+    .get-involved>* {
+        margin-top: 10px;
+        margin-bottom: 35px;    
+    }
+}
+
+@media (max-width:767px) {
+    nav section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #home section {
+        padding-top: 0px;
+    }
+
+    h3 {
+        font-size: 35px;
+        margin: auto;
+        line-height: 1.1em;
+        width: 70%;
+    }
+
+    #home p {
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 16px;
+    }
+    #home a {
+        font-size: 20px;
+        padding: 15px 17px;
+    }
+    footer img {
+        margin-left: 10px;
+    }
+    .topnav {
+        justify-content: space-between;
+    }
+    .topnav a {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {
+        position: relative;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .topnav img {
+        align-self: flex-start;
+    }
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 20px;
+      top: -10px;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      margin-left: 0px;
+      padding-top: 25px;
+      padding-bottom: 10px;
+    }
+}
